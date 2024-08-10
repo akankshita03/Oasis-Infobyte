@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header,footer{
+    position: absolute;
+    background-color: rgb(146, 146, 100);
+    width: 100%;
+    color: black;
+}
+header h1{
+    position: absolute;
+    margin-top: 20px;
+    left: 20%;
+}
+header{
+    height: 10vh;
+}
+footer{
+    height: 15vh;
+    bottom: 0;
+    background-color: gray;
+}
+footer p{
+    position: absolute;
+    left: 45%;
+    margin-top: 8px;
+}
+footer h3{
+    position: absolute;
+    left: 42%;
+    bottom: 20px;
+}
+.menu{
+    position: absolute;
+    width: 100%;
+}
+.menu a{
+    position: relative;
+    left: 45%;
+    top: 20px;
+    color: whitesmoke;
+    margin-right: 20px;
+}
+.reg{
+    background-color: rgb(35, 39, 34);
+    color:rgb(215, 198, 198);
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.log{
+    background-color: rgb(35, 39, 34);
+    color:rgb(215, 198, 198);
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.register a{
+    position: relative;
+    margin-top: 20px;
+    left: 80%;
+    margin-left: 50px;
+}
+.content{
+    width: 100%;
+    background-image: url(art.jpg);
+    background-size: cover;
+    text-align:center;
+    padding: 200px 0;
+    color: black;
+}
+.content h1{
+    margin-bottom: 20px;
+}
+.content p{
+    margin-bottom: 30px;
+}
+.try{
+    background-color: rgb(35, 39, 34);
+    color:rgb(215, 198, 198);
+    border-radius: 50px;
+    font-weight: bold;
+}
